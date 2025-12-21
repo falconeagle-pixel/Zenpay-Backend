@@ -17,6 +17,7 @@ app.use(helmet());
 const allowedOrigins = [
   'http://localhost:3000', // Local development
   'https://zenpay-frontend-mocha.vercel.app', // Vercel production
+  'https://zenpay-frontend.netlify.app'
 ];
 
 // Add FRONTEND_URL from environment if provided
